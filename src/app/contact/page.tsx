@@ -25,33 +25,20 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarLayoutFloatingInline
       navItems={[
-        {
-          name: "Home",
-          id: "/",
-        },
-        {
-          name: "Services",
-          id: "/services",
-        },
-        {
-          name: "Contact",
-          id: "/contact",
-        },
+        { name: "Home", id: "/" },
+        { name: "Services", id: "/services" },
+        { name: "Contact", id: "/contact" },
       ]}
       brandName="Clearline Digital"
       button={{
-        text: "Book a Call",
-        href: "/contact",
-      }}
+        text: "Book a Call",        href: "/contact"}}
     />
   </div>
 
   <div id="contact-body" data-section="contact-body">
       <ContactSplit
       useInvertedBackground={false}
-      background={{
-        variant: "plain",
-      }}
+      background={{ variant: "plain" }}
       tag="Get in touch"
       title="Book a Free Strategy Call"
       description="Our experts are ready to listen."
@@ -68,15 +55,9 @@ export default function LandingPage() {
       faqsAnimation="slide-up"
       faqs={[
         {
-          id: "b1",
-          title: "How long is the call?",
-          content: "15 to 30 minutes, focused on your business needs.",
-        },
+          id: "b1",          title: "How long is the call?",          content: "15 to 30 minutes, focused on your business needs."},
         {
-          id: "b2",
-          title: "Do I need to prepare anything?",
-          content: "Just bring a list of your current challenges.",
-        },
+          id: "b2",          title: "Do I need to prepare anything?",          content: "Just bring a list of your current challenges."},
       ]}
     />
   </div>
@@ -87,26 +68,13 @@ export default function LandingPage() {
       logoText="Clearline Digital"
       columns={[
         {
-          title: "Navigation",
-          items: [
-            {
-              label: "Home",
-              href: "/",
-            },
-            {
-              label: "Services",
-              href: "/services",
-            },
+          title: "Navigation",          items: [
+            { label: "Home", href: "/" },
+            { label: "Services", href: "/services" },
           ],
         },
         {
-          title: "Support",
-          items: [
-            {
-              label: "Contact",
-              href: "/contact",
-            },
-          ],
+          title: "Support",          items: [{ label: "Contact", href: "/contact" }],
         },
       ]}
     />
