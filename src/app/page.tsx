@@ -47,11 +47,11 @@ export default function LandingPage() {
       title="Your Business Deserves a Website That Works as Hard as You Do"
       description="Professional web design built for US trades. First draft in 24 hours. Packages starting as low as $1,000."
       avatars={[
-        { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=0hu8fv", alt: "Trust" },
-        { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=xqecrq", alt: "Reliability" },
-        { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=0hu8fv", alt: "Efficiency" },
-        { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=xqecrq", alt: "Speed" },
-        { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=4lwc57", alt: "Results" }
+        { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CucxvyagfRqUhX1FRecaOnzUjg/uploaded-1777242493110-4q1is9sd.jpg", alt: "Trust" },
+        { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CucxvyagfRqUhX1FRecaOnzUjg/uploaded-1777242647831-yhkmn5p8.jpg", alt: "Reliability" },
+        { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CucxvyagfRqUhX1FRecaOnzUjg/uploaded-1777242493110-4q1is9sd.jpg", alt: "Efficiency" },
+        { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CucxvyagfRqUhX1FRecaOnzUjg/uploaded-1777242647831-yhkmn5p8.jpg", alt: "Speed" },
+        { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CucxvyagfRqUhX1FRecaOnzUjg/uploaded-1777242661671-tl9e4vkf.jpg", alt: "Results" }
       ]}
       buttons={[
         { text: "Book a Free Strategy Call", href: "/contact" },
@@ -140,13 +140,13 @@ export default function LandingPage() {
       description="Schedule a strategy call today."
       mediaAnimation="slide-up"
       mediaPosition="right"
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=4lwc57&_wi=1"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CucxvyagfRqUhX1FRecaOnzUjg/uploaded-1777242883355-f2142ajq.jpg"
     />
   </div>
 
   <div id="footer" data-section="footer">
       <FooterMedia
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=4lwc57&_wi=2"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CucxvyagfRqUhX1FRecaOnzUjg/uploaded-1777242474080-u5di3awi.jpg"
       logoText="Clearline Digital"
       columns={[
         {
