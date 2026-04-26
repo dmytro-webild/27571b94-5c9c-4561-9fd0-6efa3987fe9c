@@ -45,7 +45,7 @@ export default function LandingPage() {
         variant: "gradient-bars"
       }}
       title="Your Business Deserves a Website That Works as Hard as You Do"
-      description="Professional web design built for US trades. First draft in 24 hours. Packages starting at $1,000."
+      description="Professional web design built for US trades. First draft in 24 hours. Packages starting as low as $1,000."
       avatars={[
         { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=0hu8fv", alt: "Trust" },
         { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=xqecrq", alt: "Reliability" },
