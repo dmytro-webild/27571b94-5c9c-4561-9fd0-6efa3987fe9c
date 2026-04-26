@@ -75,14 +75,14 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          title: "Custom Design",          description: "Tailored interfaces for trades",          items: [{ icon: CheckCircle, text: "Mobile first" }],
+          title: "Custom Front Page",          description: "Tailored interfaces for trades",          items: [{ icon: CheckCircle, text: "1Custom Front PageTailored interfaces for tradesWhich shows your services, your experience, your contact information. " }],
           reverse: false,
           media: {
             imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=gnfjwp",            imageAlt: "professional plumbing website design mockup"
           }
         },
         {
-          title: "Local SEO",          description: "Get found on Google maps",          items: [{ icon: CheckCircle, text: "Keyword research" }],
+          title: "Custom Webpage",          description: "Get found on Google maps",          items: [{ icon: CheckCircle, text: "Aka  " }],
           reverse: true,
           media: {
             imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=ym22tz",            imageAlt: "professional plumbing website design mockup"
