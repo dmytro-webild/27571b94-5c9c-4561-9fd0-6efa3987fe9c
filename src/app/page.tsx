@@ -120,7 +120,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       faqs={[
         {
-          id: "f1",          title: "How fast will I get my website?",          content: "Your first draft is delivered within 24 hours of your kickoff call."},
+          id: "f1",          title: "How fast will I get my website?",          content: "First revisions website is delivered within 24 hours of kickoff call."},
         {
           id: "f2",          title: "How many revisions do I get?",          content: "Unlimited reasonable revisions within a 7-day window."},
         {
