@@ -7,7 +7,7 @@ import FooterMedia from '@/components/sections/footer/FooterMedia';
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
 import { CheckCircle, Users, Zap } from "lucide-react";
 
-export default function LandingPage() {
+export default function ServicesPage() {
   return (
     <ThemeProvider
         defaultButtonVariant="elastic-effect"
@@ -25,24 +25,13 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarLayoutFloatingInline
       navItems={[
-        {
-          name: "Home",
-          id: "/",
-        },
-        {
-          name: "Services",
-          id: "/services",
-        },
-        {
-          name: "Contact",
-          id: "/contact",
-        },
+        { name: "Home", id: "/" },
+        { name: "Services", id: "/services" },
+        { name: "Contact", id: "/contact" },
       ]}
       brandName="Clearline Digital"
       button={{
-        text: "Book a Call",
-        href: "/contact",
-      }}
+        text: "Book a Call",        href: "/contact"}}
     />
   </div>
 
@@ -53,36 +42,22 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          title: "Custom Design",
-          description: "Bespoke look and feel",
-          items: [
-            {
-              icon: CheckCircle,
-              text: "Unique assets",
-            },
+          title: "Custom Design",          description: "Bespoke look and feel",          items: [
+            { icon: CheckCircle, text: "Unique assets" },
           ],
           reverse: false,
           media: {
-            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=zo144z&_wi=1",
-          },
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=0hu8fv&_wi=2",
-          imageAlt: "professional plumbing website design mockup",
+            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=zo144z",            imageAlt: "professional plumbing website design mockup"
+          }
         },
         {
-          title: "Local SEO",
-          description: "Rank in your area",
-          items: [
-            {
-              icon: CheckCircle,
-              text: "Google optimized",
-            },
+          title: "Local SEO",          description: "Rank in your area",          items: [
+            { icon: CheckCircle, text: "Google optimized" },
           ],
           reverse: true,
           media: {
-            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=55e7wn&_wi=1",
-          },
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=ym22tz&_wi=2",
-          imageAlt: "professional plumbing website design mockup",
+            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=55e7wn",            imageAlt: "professional plumbing website design mockup"
+          }
         },
       ]}
       title="Comprehensive Web Services"
@@ -99,36 +74,22 @@ export default function LandingPage() {
       description="See why top-tier trade businesses trust our workflow."
       features={[
         {
-          title: "Speed",
-          description: "Blazing fast load times",
-          items: [
-            {
-              icon: Zap,
-              text: "Optimized images",
-            },
+          title: "Speed",          description: "Blazing fast load times",          items: [
+            { icon: Zap, text: "Optimized images" },
           ],
           reverse: false,
           media: {
-            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=zo144z&_wi=2",
-          },
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=0hu8fv&_wi=3",
-          imageAlt: "professional plumbing website design mockup",
+            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=zo144z",            imageAlt: "professional plumbing website design mockup"
+          }
         },
         {
-          title: "Accessibility",
-          description: "Compliance standards",
-          items: [
-            {
-              icon: Users,
-              text: "WCAG standards",
-            },
+          title: "Accessibility",          description: "Compliance standards",          items: [
+            { icon: Users, text: "WCAG standards" },
           ],
           reverse: true,
           media: {
-            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=55e7wn&_wi=2",
-          },
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=ym22tz&_wi=3",
-          imageAlt: "professional plumbing website design mockup",
+            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=55e7wn",            imageAlt: "professional plumbing website design mockup"
+          }
         },
       ]}
     />
@@ -136,29 +97,18 @@ export default function LandingPage() {
 
   <div id="footer" data-section="footer">
       <FooterMedia
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=4lwc57&_wi=3"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=4lwc57"
       logoText="Clearline Digital"
       columns={[
         {
-          title: "Navigation",
-          items: [
-            {
-              label: "Home",
-              href: "/",
-            },
-            {
-              label: "Services",
-              href: "/services",
-            },
+          title: "Navigation",          items: [
+            { label: "Home", href: "/" },
+            { label: "Services", href: "/services" },
           ],
         },
         {
-          title: "Support",
-          items: [
-            {
-              label: "Contact",
-              href: "/contact",
-            },
+          title: "Support",          items: [
+            { label: "Contact", href: "/contact" },
           ],
         },
       ]}
