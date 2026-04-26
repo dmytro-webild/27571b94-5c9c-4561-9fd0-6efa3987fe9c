@@ -8,8 +8,8 @@ import FeatureCardTen from '@/components/sections/feature/FeatureCardTen';
 import FooterMedia from '@/components/sections/footer/FooterMedia';
 import HeroCentered from '@/components/sections/hero/HeroCentered';
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
-import PricingCardThree from '@/components/sections/pricing/PricingCardThree';
-import { CheckCircle } from "lucide-react";
+import FeatureBorderGlow from '@/components/sections/feature/featureBorderGlow/FeatureBorderGlow';
+import { CheckCircle, Clock, ShieldCheck } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -55,7 +55,6 @@ export default function LandingPage() {
       ]}
       buttons={[
         { text: "Book a Free Strategy Call", href: "/contact" },
-        { text: "View Our Packages", href: "#pricing" },
       ]}
       buttonAnimation="slide-up"
       marqueeItems={[
@@ -101,28 +100,19 @@ export default function LandingPage() {
     />
   </div>
 
-  <div id="pricing" data-section="pricing">
-      <PricingCardThree
-      animationType="slide-up"
-      textboxLayout="default"
-      useInvertedBackground={false}
-      plans={[
-        {
-          id: "starter",          price: "$1,000",          name: "Starter",          features: ["3 Pages", "Mobile First", "24h Draft"],
-          buttons: [{ text: "Select Starter", href: "/contact" }],
-        },
-        {
-          id: "growth",          price: "$1,750",          name: "Growth",          badge: "Most Popular",          features: ["5 Pages", "SEO Included", "24h Draft"],
-          buttons: [{ text: "Select Growth", href: "/contact" }],
-        },
-        {
-          id: "premium",          price: "$2,500",          name: "Premium",          features: ["10 Pages", "Lead Gen", "24h Draft"],
-          buttons: [{ text: "Select Premium", href: "/contact" }],
-        },
-      ]}
-      title="Transparent Pricing"
-      description="Get your business online in 8 days."
-    />
+  <div id="transparency" data-section="transparency">
+      <FeatureBorderGlow
+        useInvertedBackground={true}
+        animationType="slide-up"
+        title="Transparency & Delivery Guarantee"
+        description="We believe in absolute clarity and project success. Here is our commitment to your project."
+        textboxLayout="default"
+        features={[
+          { icon: Clock, title: "24-Hour First Draft", description: "You will receive the first version of your custom website within 24 hours of our initial kickoff call." },
+          { icon: Clock, title: "12-24 Hour Edit Turnaround", description: "Requests for changes are handled with speed, typically implemented within 12 to 24 hours of your submission." },
+          { icon: ShieldCheck, title: "Full Refund + $500 Guarantee", description: "If your project is not completed within 7 business days, you are entitled to a full refund of your investment plus an additional $500 as a penalty for the delay." }
+        ]}
+      />
   </div>
 
   <div id="faq" data-section="faq">
