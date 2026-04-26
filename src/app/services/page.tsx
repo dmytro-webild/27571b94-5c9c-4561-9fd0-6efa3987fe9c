@@ -47,7 +47,7 @@ export default function ServicesPage() {
           ],
           reverse: false,
           media: {
-            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=zo144z",            imageAlt: "professional plumbing website design mockup"
+            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=zo144z&_wi=1",            imageAlt: "professional plumbing website design mockup"
           }
         },
         {
@@ -56,7 +56,7 @@ export default function ServicesPage() {
           ],
           reverse: true,
           media: {
-            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=55e7wn",            imageAlt: "professional plumbing website design mockup"
+            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=55e7wn&_wi=1",            imageAlt: "professional plumbing website design mockup"
           }
         },
       ]}
@@ -79,7 +79,7 @@ export default function ServicesPage() {
           ],
           reverse: false,
           media: {
-            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=zo144z",            imageAlt: "professional plumbing website design mockup"
+            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=zo144z&_wi=2",            imageAlt: "professional plumbing website design mockup"
           }
         },
         {
@@ -88,7 +88,7 @@ export default function ServicesPage() {
           ],
           reverse: true,
           media: {
-            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=55e7wn",            imageAlt: "professional plumbing website design mockup"
+            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=55e7wn&_wi=2",            imageAlt: "professional plumbing website design mockup"
           }
         },
       ]}
@@ -97,7 +97,7 @@ export default function ServicesPage() {
 
   <div id="footer" data-section="footer">
       <FooterMedia
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=4lwc57"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=4lwc57&_wi=3"
       logoText="Clearline Digital"
       columns={[
         {
