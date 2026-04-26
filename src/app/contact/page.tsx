@@ -43,6 +43,7 @@ export default function ContactPage() {
       onSubmit={(email) => alert("Thanks for your inquiry. Our team will be reaching out shortly. Have a great day!")}
       inputPlaceholder="Enter your email"
       buttonText="Submit Inquiry"
+      useInvertedBackground={false}
     />
   </div>
 
