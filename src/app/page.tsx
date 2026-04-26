@@ -134,7 +134,7 @@ export default function LandingPage() {
           media: {
             imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=gnfjwp",
           },
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=0hu8fv",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=0hu8fv&_wi=1",
           imageAlt: "professional plumbing website design mockup",
         },
         {
@@ -148,7 +148,7 @@ export default function LandingPage() {
           ],
           reverse: true,
           media: {
-            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=ym22tz",
+            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=ym22tz&_wi=1",
           },
           imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=xqecrq",
           imageAlt: "professional plumbing website design mockup",
@@ -166,7 +166,7 @@ export default function LandingPage() {
           media: {
             imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=eo8y84",
           },
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=4lwc57",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=4lwc57&_wi=1",
           imageAlt: "professional plumbing website design mockup",
         },
       ]}
@@ -278,7 +278,7 @@ export default function LandingPage() {
 
   <div id="footer" data-section="footer">
       <FooterMedia
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=4lwc57"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=4lwc57&_wi=2"
       logoText="Clearline Digital"
       columns={[
         {
