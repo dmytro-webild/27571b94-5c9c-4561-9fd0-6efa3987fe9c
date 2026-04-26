@@ -75,24 +75,24 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          title: "Custom Front Page",          description: "Tailored interfaces for trades",          items: [{ icon: CheckCircle, text: "1Custom Front PageTailored interfaces for tradesWhich shows your services, your experience, your contact information. " }],
+          title: "Custom Front Page",          description: "Your very first impression ",          items: [{ icon: CheckCircle, text: "Should show your service, your motto, your contact information. " }],
           reverse: false,
           media: {
-            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=gnfjwp",            imageAlt: "professional plumbing website design mockup"
+            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CucxvyagfRqUhX1FRecaOnzUjg/uploaded-1777240935737-k8hdqhab.jpg",            imageAlt: "professional plumbing website design mockup"
           }
         },
         {
-          title: "Custom Webpage",          description: "Get found on Google maps",          items: [{ icon: CheckCircle, text: "Aka  " }],
+          title: "Custom Webpage",          description: "What a potential customer sees right after they scroll down. ",          items: [{ icon: CheckCircle, text: "2Custom WebpageWhat a potential customer sees right after they scroll down. Needs to show your exact services, your business story, and happy customers.  " }],
           reverse: true,
           media: {
-            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=ym22tz",            imageAlt: "professional plumbing website design mockup"
+            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CucxvyagfRqUhX1FRecaOnzUjg/uploaded-1777240975408-3jqbbfjn.jpg",            imageAlt: "professional plumbing website design mockup"
           }
         },
         {
-          title: "Content Strategy",          description: "Done-for-you copywriting",          items: [{ icon: CheckCircle, text: "Professional voice" }],
+          title: "Custom Footnotes",          description: "Can be the deciding factor for skeptical shoppers",          items: [{ icon: CheckCircle, text: "Information a potential custom might not know. Maintenance intervals, why they should get those done, additional contact form." }],
           reverse: false,
           media: {
-            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=eo8y84",            imageAlt: "professional plumbing website design mockup"
+            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CucxvyagfRqUhX1FRecaOnzUjg/uploaded-1777241219301-i2ugqv24.jpg",            imageAlt: "professional plumbing website design mockup"
           }
         },
       ]}
