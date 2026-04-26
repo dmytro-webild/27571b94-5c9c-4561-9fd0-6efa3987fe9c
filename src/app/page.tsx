@@ -30,87 +30,44 @@ export default function LandingPage() {
       <NavbarLayoutFloatingInline
       navItems={[
         {
-          name: "Home",
-          id: "/",
-        },
+          name: "Home",          id: "/"},
         {
-          name: "Services",
-          id: "/services",
-        },
+          name: "Services",          id: "/services"},
         {
-          name: "Contact",
-          id: "/contact",
-        },
+          name: "Contact",          id: "/contact"},
       ]}
       brandName="Clearline Digital"
       button={{
-        text: "Book a Call",
-        href: "/contact",
-      }}
+        text: "Book a Call",        href: "/contact"}}
     />
   </div>
 
   <div id="hero" data-section="hero">
       <HeroCentered
       background={{
-        variant: "gradient-bars",
-      }}
+        variant: "gradient-bars"}}
       title="Your Business Deserves a Website That Works as Hard as You Do"
       description="Professional web design built for US trades. First draft in 24 hours. Packages starting at $1,000."
       avatars={[
-        {
-          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=0hu8fv",
-          alt: "Trust",
-        },
-        {
-          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=xqecrq",
-          alt: "Reliability",
-        },
-        {
-          src: "asset://hero-avatar-3",
-          alt: "Efficiency",
-        },
-        {
-          src: "asset://hero-avatar-4",
-          alt: "Speed",
-        },
-        {
-          src: "asset://hero-avatar-5",
-          alt: "Results",
-        },
+        { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=0hu8fv", alt: "Trust" },
+        { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=xqecrq", alt: "Reliability" },
+        { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=0hu8fv", alt: "Efficiency" },
+        { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=xqecrq", alt: "Speed" },
+        { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=4lwc57", alt: "Results" }
       ]}
       buttons={[
         {
-          text: "Book a Free Strategy Call",
-          href: "/contact",
-        },
+          text: "Book a Free Strategy Call",          href: "/contact"},
         {
-          text: "View Our Packages",
-          href: "#pricing",
-        },
+          text: "View Our Packages",          href: "#pricing"},
       ]}
       buttonAnimation="slide-up"
       marqueeItems={[
-        {
-          type: "text",
-          text: "Plumbing",
-        },
-        {
-          type: "text",
-          text: "Electrical",
-        },
-        {
-          type: "text",
-          text: "HVAC",
-        },
-        {
-          type: "text",
-          text: "Roofing",
-        },
-        {
-          type: "text",
-          text: "Landscaping",
-        },
+        { type: "text", text: "Plumbing" },
+        { type: "text", text: "Electrical" },
+        { type: "text", text: "HVAC" },
+        { type: "text", text: "Roofing" },
+        { type: "text", text: "Landscaping" },
       ]}
     />
   </div>
@@ -122,52 +79,31 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          title: "Custom Design",
-          description: "Tailored interfaces for trades",
-          items: [
-            {
-              icon: CheckCircle,
-              text: "Mobile first",
-            },
+          title: "Custom Design",          description: "Tailored interfaces for trades",          items: [
+            { icon: CheckCircle, text: "Mobile first" },
           ],
           reverse: false,
           media: {
-            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=gnfjwp",
-          },
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=0hu8fv&_wi=1",
-          imageAlt: "professional plumbing website design mockup",
+            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=gnfjwp",            imageAlt: "professional plumbing website design mockup"
+          }
         },
         {
-          title: "Local SEO",
-          description: "Get found on Google maps",
-          items: [
-            {
-              icon: CheckCircle,
-              text: "Keyword research",
-            },
+          title: "Local SEO",          description: "Get found on Google maps",          items: [
+            { icon: CheckCircle, text: "Keyword research" },
           ],
           reverse: true,
           media: {
-            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=ym22tz&_wi=1",
-          },
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=xqecrq",
-          imageAlt: "professional plumbing website design mockup",
+            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=ym22tz",            imageAlt: "professional plumbing website design mockup"
+          }
         },
         {
-          title: "Content Strategy",
-          description: "Done-for-you copywriting",
-          items: [
-            {
-              icon: CheckCircle,
-              text: "Professional voice",
-            },
+          title: "Content Strategy",          description: "Done-for-you copywriting",          items: [
+            { icon: CheckCircle, text: "Professional voice" },
           ],
           reverse: false,
           media: {
-            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=eo8y84",
-          },
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=4lwc57&_wi=1",
-          imageAlt: "professional plumbing website design mockup",
+            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=eo8y84",            imageAlt: "professional plumbing website design mockup"
+          }
         },
       ]}
       title="Built for Growth"
@@ -182,52 +118,24 @@ export default function LandingPage() {
       useInvertedBackground={false}
       plans={[
         {
-          id: "starter",
-          price: "$1,000",
-          name: "Starter",
-          features: [
-            "3 Pages",
-            "Mobile First",
-            "24h Draft",
-          ],
+          id: "starter",          price: "$1,000",          name: "Starter",          features: [
+            "3 Pages",            "Mobile First",            "24h Draft"],
           buttons: [
-            {
-              text: "Select Starter",
-              href: "/contact",
-            },
+            { text: "Select Starter", href: "/contact" },
           ],
         },
         {
-          id: "growth",
-          price: "$1,750",
-          name: "Growth",
-          badge: "Most Popular",
-          features: [
-            "5 Pages",
-            "SEO Included",
-            "24h Draft",
-          ],
+          id: "growth",          price: "$1,750",          name: "Growth",          badge: "Most Popular",          features: [
+            "5 Pages",            "SEO Included",            "24h Draft"],
           buttons: [
-            {
-              text: "Select Growth",
-              href: "/contact",
-            },
+            { text: "Select Growth", href: "/contact" },
           ],
         },
         {
-          id: "premium",
-          price: "$2,500",
-          name: "Premium",
-          features: [
-            "10 Pages",
-            "Lead Gen",
-            "24h Draft",
-          ],
+          id: "premium",          price: "$2,500",          name: "Premium",          features: [
+            "10 Pages",            "Lead Gen",            "24h Draft"],
           buttons: [
-            {
-              text: "Select Premium",
-              href: "/contact",
-            },
+            { text: "Select Premium", href: "/contact" },
           ],
         },
       ]}
@@ -241,20 +149,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       faqs={[
         {
-          id: "f1",
-          title: "How fast will I get my website?",
-          content: "Your first draft is delivered within 24 hours of your kickoff call.",
-        },
+          id: "f1",          title: "How fast will I get my website?",          content: "Your first draft is delivered within 24 hours of your kickoff call."},
         {
-          id: "f2",
-          title: "How many revisions do I get?",
-          content: "Unlimited reasonable revisions within a 7-day window.",
-        },
+          id: "f2",          title: "How many revisions do I get?",          content: "Unlimited reasonable revisions within a 7-day window."},
         {
-          id: "f3",
-          title: "What trades do you work with?",
-          content: "Plumbers, Electricians, HVAC, Roofers, and more.",
-        },
+          id: "f3",          title: "What trades do you work with?",          content: "Plumbers, Electricians, HVAC, Roofers, and more."},
       ]}
       sideTitle="Common Questions"
       faqsAnimation="slide-up"
@@ -265,42 +164,30 @@ export default function LandingPage() {
       <ContactSplit
       useInvertedBackground={false}
       background={{
-        variant: "gradient-bars",
-      }}
+        variant: "gradient-bars"}}
       tag="Ready to scale?"
       title="Start Winning More Jobs Online"
       description="Schedule a strategy call today."
       mediaAnimation="slide-up"
       mediaPosition="right"
-      imageSrc="asset://contact-bg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=4lwc57"
     />
   </div>
 
   <div id="footer" data-section="footer">
       <FooterMedia
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=4lwc57&_wi=2"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=4lwc57"
       logoText="Clearline Digital"
       columns={[
         {
-          title: "Navigation",
-          items: [
-            {
-              label: "Home",
-              href: "/",
-            },
-            {
-              label: "Services",
-              href: "/services",
-            },
+          title: "Navigation",          items: [
+            { label: "Home", href: "/" },
+            { label: "Services", href: "/services" },
           ],
         },
         {
-          title: "Support",
-          items: [
-            {
-              label: "Contact",
-              href: "/contact",
-            },
+          title: "Support",          items: [
+            { label: "Contact", href: "/contact" },
           ],
         },
       ]}
