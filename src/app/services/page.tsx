@@ -42,18 +42,14 @@ export default function ServicesPage() {
       useInvertedBackground={false}
       features={[
         {
-          title: "Custom Design",          description: "Bespoke look and feel",          items: [
-            { icon: CheckCircle, text: "Unique assets" },
-          ],
+          title: "Custom Design",          description: "Bespoke look and feel",          items: [{ icon: CheckCircle, text: "Unique assets" }],
           reverse: false,
           media: {
             imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=zo144z&_wi=1",            imageAlt: "professional plumbing website design mockup"
           }
         },
         {
-          title: "Local SEO",          description: "Rank in your area",          items: [
-            { icon: CheckCircle, text: "Google optimized" },
-          ],
+          title: "Local SEO",          description: "Rank in your area",          items: [{ icon: CheckCircle, text: "Google optimized" }],
           reverse: true,
           media: {
             imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=55e7wn&_wi=1",            imageAlt: "professional plumbing website design mockup"
@@ -74,18 +70,14 @@ export default function ServicesPage() {
       description="See why top-tier trade businesses trust our workflow."
       features={[
         {
-          title: "Speed",          description: "Blazing fast load times",          items: [
-            { icon: Zap, text: "Optimized images" },
-          ],
+          title: "Speed",          description: "Blazing fast load times",          items: [{ icon: Zap, text: "Optimized images" }],
           reverse: false,
           media: {
             imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=zo144z&_wi=2",            imageAlt: "professional plumbing website design mockup"
           }
         },
         {
-          title: "Accessibility",          description: "Compliance standards",          items: [
-            { icon: Users, text: "WCAG standards" },
-          ],
+          title: "Accessibility",          description: "Compliance standards",          items: [{ icon: Users, text: "WCAG standards" }],
           reverse: true,
           media: {
             imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=55e7wn&_wi=2",            imageAlt: "professional plumbing website design mockup"
@@ -107,9 +99,7 @@ export default function ServicesPage() {
           ],
         },
         {
-          title: "Support",          items: [
-            { label: "Contact", href: "/contact" },
-          ],
+          title: "Support",          items: [{ label: "Contact", href: "/contact" }],
         },
       ]}
     />
