@@ -2,12 +2,12 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import ContactSplit from '@/components/sections/contact/ContactSplit';
+import ContactForm from '@/components/form/ContactForm';
 import FaqSplitText from '@/components/sections/faq/FaqSplitText';
 import FooterMedia from '@/components/sections/footer/FooterMedia';
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
 
-export default function LandingPage() {
+export default function ContactPage() {
   return (
     <ThemeProvider
         defaultButtonVariant="elastic-effect"
@@ -35,16 +35,14 @@ export default function LandingPage() {
     />
   </div>
 
-  <div id="contact-body" data-section="contact-body">
-      <ContactSplit
-      useInvertedBackground={false}
-      background={{ variant: "plain" }}
-      tag="Get in touch"
-      title="Book a Free Strategy Call"
-      description="Our experts are ready to listen."
-      mediaAnimation="slide-up"
-      mediaPosition="left"
-      imageSrc="asset://contact-form-bg"
+  <div id="contact-form" data-section="contact-form">
+      <ContactForm
+      title="Get in Touch"
+      description="Fill out the form below and we'll reach out to learn more about your needs."
+      tag="Contact Us"
+      onSubmit={(email) => alert("Thanks for your inquiry. Our team will be reaching out shortly. Have a great day!")}
+      inputPlaceholder="Enter your email"
+      buttonText="Submit Inquiry"
     />
   </div>
 
