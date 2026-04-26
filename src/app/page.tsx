@@ -170,13 +170,13 @@ export default function LandingPage() {
       description="Schedule a strategy call today."
       mediaAnimation="slide-up"
       mediaPosition="right"
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=4lwc57"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=4lwc57&_wi=1"
     />
   </div>
 
   <div id="footer" data-section="footer">
       <FooterMedia
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=4lwc57"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=4lwc57&_wi=2"
       logoText="Clearline Digital"
       columns={[
         {
