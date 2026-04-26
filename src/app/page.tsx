@@ -29,12 +29,9 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarLayoutFloatingInline
       navItems={[
-        {
-          name: "Home",          id: "/"},
-        {
-          name: "Services",          id: "/services"},
-        {
-          name: "Contact",          id: "/contact"},
+        { name: "Home", id: "/" },
+        { name: "Services", id: "/services" },
+        { name: "Contact", id: "/contact" },
       ]}
       brandName="Clearline Digital"
       button={{
@@ -45,7 +42,8 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroCentered
       background={{
-        variant: "gradient-bars"}}
+        variant: "gradient-bars"
+      }}
       title="Your Business Deserves a Website That Works as Hard as You Do"
       description="Professional web design built for US trades. First draft in 24 hours. Packages starting at $1,000."
       avatars={[
@@ -56,10 +54,8 @@ export default function LandingPage() {
         { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=4lwc57", alt: "Results" }
       ]}
       buttons={[
-        {
-          text: "Book a Free Strategy Call",          href: "/contact"},
-        {
-          text: "View Our Packages",          href: "#pricing"},
+        { text: "Book a Free Strategy Call", href: "/contact" },
+        { text: "View Our Packages", href: "#pricing" },
       ]}
       buttonAnimation="slide-up"
       marqueeItems={[
@@ -79,27 +75,21 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          title: "Custom Design",          description: "Tailored interfaces for trades",          items: [
-            { icon: CheckCircle, text: "Mobile first" },
-          ],
+          title: "Custom Design",          description: "Tailored interfaces for trades",          items: [{ icon: CheckCircle, text: "Mobile first" }],
           reverse: false,
           media: {
             imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=gnfjwp",            imageAlt: "professional plumbing website design mockup"
           }
         },
         {
-          title: "Local SEO",          description: "Get found on Google maps",          items: [
-            { icon: CheckCircle, text: "Keyword research" },
-          ],
+          title: "Local SEO",          description: "Get found on Google maps",          items: [{ icon: CheckCircle, text: "Keyword research" }],
           reverse: true,
           media: {
             imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=ym22tz",            imageAlt: "professional plumbing website design mockup"
           }
         },
         {
-          title: "Content Strategy",          description: "Done-for-you copywriting",          items: [
-            { icon: CheckCircle, text: "Professional voice" },
-          ],
+          title: "Content Strategy",          description: "Done-for-you copywriting",          items: [{ icon: CheckCircle, text: "Professional voice" }],
           reverse: false,
           media: {
             imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=eo8y84",            imageAlt: "professional plumbing website design mockup"
@@ -118,25 +108,16 @@ export default function LandingPage() {
       useInvertedBackground={false}
       plans={[
         {
-          id: "starter",          price: "$1,000",          name: "Starter",          features: [
-            "3 Pages",            "Mobile First",            "24h Draft"],
-          buttons: [
-            { text: "Select Starter", href: "/contact" },
-          ],
+          id: "starter",          price: "$1,000",          name: "Starter",          features: ["3 Pages", "Mobile First", "24h Draft"],
+          buttons: [{ text: "Select Starter", href: "/contact" }],
         },
         {
-          id: "growth",          price: "$1,750",          name: "Growth",          badge: "Most Popular",          features: [
-            "5 Pages",            "SEO Included",            "24h Draft"],
-          buttons: [
-            { text: "Select Growth", href: "/contact" },
-          ],
+          id: "growth",          price: "$1,750",          name: "Growth",          badge: "Most Popular",          features: ["5 Pages", "SEO Included", "24h Draft"],
+          buttons: [{ text: "Select Growth", href: "/contact" }],
         },
         {
-          id: "premium",          price: "$2,500",          name: "Premium",          features: [
-            "10 Pages",            "Lead Gen",            "24h Draft"],
-          buttons: [
-            { text: "Select Premium", href: "/contact" },
-          ],
+          id: "premium",          price: "$2,500",          name: "Premium",          features: ["10 Pages", "Lead Gen", "24h Draft"],
+          buttons: [{ text: "Select Premium", href: "/contact" }],
         },
       ]}
       title="Transparent Pricing"
@@ -163,8 +144,7 @@ export default function LandingPage() {
   <div id="cta" data-section="cta">
       <ContactSplit
       useInvertedBackground={false}
-      background={{
-        variant: "gradient-bars"}}
+      background={{ variant: "gradient-bars" }}
       tag="Ready to scale?"
       title="Start Winning More Jobs Online"
       description="Schedule a strategy call today."
@@ -186,9 +166,7 @@ export default function LandingPage() {
           ],
         },
         {
-          title: "Support",          items: [
-            { label: "Contact", href: "/contact" },
-          ],
+          title: "Support",          items: [{ label: "Contact", href: "/contact" }],
         },
       ]}
     />
