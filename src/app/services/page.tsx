@@ -57,7 +57,7 @@ export default function ServicesPage() {
         },
       ]}
       title="Comprehensive Web Services"
-      description="We don't just design; we build growth systems."
+      description="We don't just design; we build growth systems. "
     />
   </div>
 
