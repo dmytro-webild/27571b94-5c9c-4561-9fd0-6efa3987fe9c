@@ -45,14 +45,14 @@ export default function ServicesPage() {
           title: "Custom Design",          description: "Bespoke look and feel",          items: [{ icon: CheckCircle, text: "Unique assets" }],
           reverse: false,
           media: {
-            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=zo144z&_wi=1",            imageAlt: "professional plumbing website design mockup"
+            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CucxvyagfRqUhX1FRecaOnzUjg/uploaded-1777317122610-skne4rvh.jpg",            imageAlt: "professional plumbing website design mockup"
           }
         },
         {
           title: "Local SEO",          description: "Rank in your area",          items: [{ icon: CheckCircle, text: "Google optimized" }],
           reverse: true,
           media: {
-            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=55e7wn&_wi=1",            imageAlt: "professional plumbing website design mockup"
+            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CucxvyagfRqUhX1FRecaOnzUjg/uploaded-1777317254766-qu75ym9d.jpg",            imageAlt: "professional plumbing website design mockup"
           }
         },
       ]}
@@ -73,14 +73,14 @@ export default function ServicesPage() {
           title: "Speed",          description: "Blazing fast load times",          items: [{ icon: Zap, text: "Optimized images" }],
           reverse: false,
           media: {
-            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=zo144z&_wi=2",            imageAlt: "professional plumbing website design mockup"
+            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CucxvyagfRqUhX1FRecaOnzUjg/uploaded-1777317675887-erat6m76.jpg",            imageAlt: "professional plumbing website design mockup"
           }
         },
         {
           title: "Accessibility",          description: "Compliance standards",          items: [{ icon: Users, text: "WCAG standards" }],
           reverse: true,
           media: {
-            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=55e7wn&_wi=2",            imageAlt: "professional plumbing website design mockup"
+            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CucxvyagfRqUhX1FRecaOnzUjg/uploaded-1777317838579-16t9a4lh.jpg",            imageAlt: "professional plumbing website design mockup"
           }
         },
       ]}
@@ -89,7 +89,7 @@ export default function ServicesPage() {
 
   <div id="footer" data-section="footer">
       <FooterMedia
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=4lwc57&_wi=3"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CucxvyagfRqUhX1FRecaOnzUjg/uploaded-1777317854148-z3r3nqle.jpg"
       logoText="Clearline Digital"
       columns={[
         {
