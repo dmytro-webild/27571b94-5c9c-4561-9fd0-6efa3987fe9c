@@ -63,7 +63,7 @@ export default function ContactPage() {
 
   <div id="footer" data-section="footer">
       <FooterMedia
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=4lwc57&_wi=4"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CucxvyagfRqUhX1FRecaOnzUjg/uploaded-1777316588997-rjqtn0t2.jpg"
       logoText="Clearline Digital"
       columns={[
         {
